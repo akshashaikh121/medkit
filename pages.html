@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medkit |homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="home2">
+
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo"><img src="img/Group 189.png" class="logo-image" alt=""></div>
+            </div>
+            <div class="nav-item">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li onclick="dropdown()" class="drop"> <a
+                            style="display: flex; align-items: center; justify-content: center;">Pages <img
+                                src="img/fi_17808404.png"></a> </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="more-item">
+                <div id="hidden" class="input display-none ">
+
+                </div>
+                <button id="btn" onclick="clickHandler()"><img src="img/search-2.png" class="icons"></button>
+                <button><img src="img/cart.png" class="icons" alt=""></button>
+            </div>
+            <div onclick="show()" class="toggle">
+                <button class="toggle-button">
+                    <img src="img/pngwing.com (18).png" alt="">
+                </button>
+
+            </div>
+        </nav>
+
+        <div id="toggle-div" class="toggle-items display-none">
+
+        </div>
+    </header>
+    <div id="list" class="list display-none"></div>
+    </div>
+
+    <!-- ==============header end ============== -->
+    <section class="home2-hero-section dropdown-margin" id="heroMargin">
+
+        <div class="main-container">
+            <div class="contianer">
+                <h1>From wellness to care all in one place</h1>
+            </div>
+            <div class="position">
+                <img src="img/home2img/fi_11923866.png" alt="">
+            </div>
+
+            <div class="sub-container ">
+
+                <img src="img/home2img/Rectangle 119 (1).png" class="img">
+                <div class="text-container">
+
+                    <span>Your health is in good hands with Medifit. We’re here to provide you with a wide range of
+                        healthcare
+                        essentials, carefully selected.</span>
+                    <button class="btn"><img src="img/bag-shopping.png" class="icons" alt=""> Shop Now</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="main-img-container"><img src="img/home2img/doctor-maintaining-record-medicine-laptop 1.png" alt="">
+        </div>
+    </section>
+
+    <section class="company">
+        <img src="img/home2img/Compnay logo-4 1.png" alt="">
+        <img src="img/home2img/Compnay logo-10 1.png" alt="">
+        <img src="img/home2img/Compnay logo-12 1.png" alt="">
+        <img src="img/home2img/Compnay logo-15 1.png" alt="">
+        <img src="img/home2img/Compnay logo-16 1.png" alt="">
+    </section>
+
+
+    <section class="our-story">
+        <div>
+            <img class="fi-image" src="img/home2img/fi_4173061.png" alt="">
+        </div>
+        <div class="container">
+            <div class="text-container">
+                <h4>Bringing trusted health solutions to your doorstep focused on
+                    quality care & reliability</h4>
+                <p>Our store offers a comprehensive range of pharmaceuticals, health and wellness products, and
+                    medical supplies to meet the diverse needs of our community.</p>
+                <button class="btn">
+                    Our story
+                </button>
+
+            </div>
+            <div class="our-story-img">
+                <img src="img/home2img/Mask group (8).png" alt="">
+            </div>
+        </div>
+        <div class="card-container flex-row">
+            <div class="container flex  ">
+                <img src="img/home2img/Group 239.png" alt="">
+                <h5>Thoughtfully Made</h5>
+            </div>
+            <div class="container flex">
+                <img src="img/home2img/Group 240.png" alt="">
+                <h5>Non-Toxic Formula</h5>
+            </div>
+            <div class="container flex">
+                <img src="img/home2img/Group 241.png" alt="">
+                <h5>Organic Essentials</h5>
+            </div>
+            <div class="container flex">
+                <img src="img/home2img/Group 242.png" alt="">
+                <h5>Safe for Everyone</h5>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-collection">
+
+        <div class="main-card-container">
+            <div class="sub-card-container flex-row">
+                <div class="card text-card">
+                    <h4>Discover our collection</h4>
+                    <span>Our medical store offers trusted products easy navigation, and fast shipping</span>
+                    <button class="btn ">
+                        View all products <img src="img/home2img/chevron-right.png" style="width: 25px;" alt="">
+                    </button>
+                </div>
+                <div class="card ">
+                    <img src="img/home2img/Frame 229 (2).png" alt="">
+                    <div>
+
+                        <h5>B12 medicine</h5>
+                        <span>$19.00 USD <del>$25.00 USD</del></span>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="img/home2img/Frame 229 (3).png" alt="">
+                    <div>
+
+                        <h5>B12 medicine</h5>
+                        <span>$19.00 USD <del>$25.00 USD</del></span>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="img/home2img/Frame 229 (4).png" alt="">
+                    <div>
+
+                        <h5>B12 medicine</h5>
+                        <span>$19.00 USD <del>$25.00 USD</del></span>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="img/home2img/Frame 229 (5).png" alt="">
+                    <div>
+
+                        <h5>B12 medicine</h5>
+                        <span>$19.00 USD <del>$25.00 USD</del></span>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="img/home2img/Frame 229 (6).png" alt="">
+                    <div>
+
+                        <h5>B12 medicine</h5>
+                        <span>$19.00 USD <del>$25.00 USD</del></span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="cta-category">
+        <div class="cta-cards flex-row">
+            <div class="card card1">
+                <img src="img/home2img/Frame 294.png" alt="">
+            </div>
+            <div class="card card2" >
+                <img src=" img/home2img/Frame 295.png" alt="">
+            </div>
+            <div class="card card3">
+                <img src="img/home2img/Frame 296.png" style="width: 38px; margin-left: 40px; margin-left: 30px;" alt="">
+            </div>
+            <div class="card card4">
+                <img src="img/home2img/Frame 297.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="CTA-card-section">
+        <div class="CTA-main-content">
+            <div class="CTA-img-content flex-row">
+                <div class="big-img">
+                    <img src="img/home2img/Mask group (9).png" alt="">
+                </div>
+                <div class="small-img">
+                    <img src="img/home2img/Group 244.png" alt="">
+                </div>
+
+            </div>
+            <div class="CTA-text-content">
+                <h4>Save up to 10% on select tablets limited time only!</h4>
+                <span>Don't miss out on our limited-time sale! 10% discount on a wide range of essential health
+                    products.</span>
+                <div class="btn flex-row">View sale products <img src="img/home2img/chevron-right.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customers-review">
+        <div class="container flex">
+            <h4>Customers review </h4>
+            <div class="card-container flex-row">
+                <div class="card flex">
+                    <div class="white-container flex">
+                        <img src="img/home2img/message-lines.png" alt="">
+                        <p style="font-size: 14px;">B12 Medicine keeps me energized and focused all day. A true
+                            lifesaver for vitality and
+                            wellness!</p>
+                    </div>
+                    <div class="flex-row profile">
+                        <img src="img/home2img/Mask group (10).png" alt="">
+                        <h6>Olivia Garcia</h6>
+                    </div>
+
+                </div>
+                <div class="card-container flex-row">
+                    <div class="card flex">
+                        <div class="white-container flex">
+                            <img src="img/home2img/message-lines.png" alt="">
+                            <p style="font-size: 14px;">I’ve regained my energy and feel amazing thanks to B12 Medicine.
+                                Highly recommend for health and stamina!</p>
+                        </div>
+                        <div class="flex-row profile">
+                            <img src="img/home2img/Mask group (11).png" alt="">
+                            <h6>Sophia Brown</h6>
+                        </div>
+
+                    </div>
+                    <div class="card-container">
+                        <div class="card flex">
+                            <div class="white-container flex">
+                                <img src="img/home2img/message-lines.png" alt="">
+                                <p style="font-size: 14px;">As a vegetarian, B12 Medicine keeps my energy up and my
+                                    health on track. Perfect for natural support!</p>
+                            </div>
+                            <div class="flex-row profile">
+                                <img src="img/home2img/Mask group (12).png" alt="">
+                                <h6>Ethan Harris</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <section class="healthcare-insight flex">
+        <div class="container">
+            <h4>Healthcare Insights</h4>
+            <div class="card-container flex-row">
+                <div class="card ">
+                    <div class="img-container">
+                        <img src="img/home2img/Rectangle 119.png" alt="">
+                    </div>
+                    <div class="text-container">
+                        <div>
+                            <p><img src="img/home2img/calendar-week.png" width="18px" alt="">October 25, 2024</p>
+                            <h3>Living well with chronic conditions</h3>
+                        </div>
+                        <div class="h6">
+                    
+    <a href="">                        
+<h6>
+      Read more <img src="img/home2img/chevron-right (1).png" width="17px" alt="">
+                            </h6>
+                            </a>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="card ">
+                    <div class="img-container">
+                        <img src="img/home2img/Rectangle 119 (1).png" alt="">
+                    </div>
+                    <div class="text-container">
+                        <div>
+                            <p><img src="img/home2img/calendar-week.png" width="18px" alt="">October 25, 2024</p>
+                            <h3>Living well with chronic conditions</h3>
+                        </div>
+                        <div class="h6">
+                           <a href="">
+
+                               <h6>Read more <img src="img/home2img/chevron-right (1).png" width="17px" alt="">
+                           </a>
+                            </h6>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+    </section>
+    <!-- ==============footer start============== -->
+    <footer class="flex-row">
+        <div class="column-I flex-row">
+            <div class="sub-column flex">
+                <h5>Pages</h5>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="pages.html">know more</a></li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="sub-column flex">
+                <h5>Utility</h5>
+                <ul>
+                    <li><a href="">Style guide</a></li>
+                    <li><a href="">Instruction</a></li>
+                    <li><a href="">Changelog</a></li>
+                    <li><a href="">Licenses</a></li>
+                    <li><a href="">Link in bio</a></li>
+                    <li><a href="">Error 404</a></li>
+                    <li><a href="">Password protected</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class=" center-column flex">
+            <img src="img/Group 189.png" alt="">
+            <p>We provides the ultimate solution for your online store and all the healthcare needs.</p>
+            <div class="flex-row img">
+                <img src="img/Group 13.png" alt="">
+                <img src="img/Group 14.png" alt="">
+                <img src="img/Group 15.png" alt="">
+                <img src="img/Group 16.png" alt="">
+            </div>
+        </div>
+        <div class="column flex">
+            <div class="mini-column " style="text-align: left; width: 100%;">
+                <h5> Address</h5>
+                <div class="flex-row">
+                    <img src="img/location-pin-2.png" alt=""><span>1640 Parker Rd. Allentown, <br>New Mexico 31134/span>
+                </div>
+
+            </div>
+            <div class="mini-column flex">
+                <h5>Contact</h5>
+                <div class="flex-row">
+                    <img src="img/fi_11502423.png" style="width: 15px; height: 15px;"
+                        alt=""><span>hello@gmail.com</span>
+                </div>
+                <div class="flex-row">
+                    <img src="img/fi_2198371.png" alt=""><span>(209) 555-0104</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/coustom.js"></script>
+</body>
+
+</html>

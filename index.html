@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medkit |homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo"><img src="img/Group 189.png" class="logo-image" alt=""></div>
+            </div>
+            <div class="nav-item">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li onclick="dropdown()" class="drop"> <a
+                            style="display: flex; align-items: center; justify-content: center;">Pages <img
+                                src="img/fi_17808404.png"></a> </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="more-item">
+                <div id="hidden" class="input display-none ">
+
+                </div>
+                <button id="btn" onclick="clickHandler()"><img src="img/search-2.png" class="icons"></button>
+                <button><img src="img/cart.png" class="icons" alt=""></button>
+            </div>
+            <div onclick="show()" class="toggle">
+                <button class="toggle-button">
+                    <img src="img/pngwing.com (18).png" alt="">
+                </button>
+
+            </div>
+        </nav>
+
+        <div id="toggle-div" class="toggle-items display-none">
+
+        </div>
+    </header>
+    <div id="list" class="list display-none"></div>
+
+
+    </div>
+    <section class="hero-section dropdown-margin" id="heroMargin">
+
+        <div class="text-container">
+            <h1>Your trusted care now <br>and always</h1>
+            <p>For the best result,align your health needswith your medication plan</p>
+            <button><img src="img/bag.png" alt=""> Shop Now</button>
+            <img src="img/Clip path group.png" class="path-group">
+        </div>
+        <div class="img-container"><img src="img/Group 220.png" alt=""></div>
+    </section>
+    <!-- ======== hero-section end ====== -->
+
+    <!-- ======== store-section start ====== -->
+
+    <section class="store-section flex">
+        <div class="Shop-Category">
+            <div class="container flex">
+                <h4>Shop by Category</h4>
+                <div class="store-card">
+                    <div class="card">
+                        <img src="img/Frame 234.png" alt="">
+                        <h6>Medicine</h6>
+                        <span>32 Items</span>
+                    </div>
+                    <div class="card">
+                        <img src="img/Frame 234 (1).png" alt="">
+                        <h6>Health care</h6>
+                        <span>20 Items</span>
+                    </div>
+                    <div class="card">
+                        <img src="img/Frame 234 (2).png" alt="">
+                        <h6>Beauty care</h6>
+                        <span>30 Items</span>
+                    </div>
+                    <div class="card">
+                        <img src="img/Frame 234 (3).png" alt="">
+                        <h6>Fitness</h6>
+                        <span>35 Items</span>
+                    </div>
+                    <div class="card">
+                        <img src="img/Frame 234 (4).png" alt="">
+                        <h6>Lab equipment</h6>
+                        <span>25 Items</span>
+                    </div>
+                    <div class="card">
+                        <img src="img/Frame 234 (5).png" alt="">
+                        <h6>Medkits</h6>
+                        <span>25 Items</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="CTA-section">
+            <div class="container flex-row">
+                <div class="card flex">
+                    <div text-container>
+                        <h6 class="Cta-heading">Sanitizer</h6>
+                        <h5>Hand sanitizer collection </h5>
+                        <a href="#" class="flex-row"><img src="img/bag-shopping.png" style="height: 30px; width: 30px;"
+                                alt=""> Shop
+                            Now</a>
+                    </div>
+                    <div class="img-container">
+                        <img src="img/realistic-hand-sanitizer-bottle-3d-style 1.png" alt="">
+                    </div>
+                </div>
+
+
+
+
+                <div class="card flex">
+                    <div text-container>
+                        <h6 class="Cta-heading">Sanitizer</h6>
+                        <h5>Hand sanitizer collection </h5>
+                        <a href="#" class="flex-row"><img src="img/eye.png" class="icons"
+                                style="height: 30px; width: 30px;" alt="">
+                            Discover now</a>
+                    </div>
+                    <div class="img-container">
+                        <img src="img/rb_2147639108 1.png" alt="">
+                    </div>
+                </div>
+                <div class="card flex">
+                    <div text-container>
+                        <h6 class="Cta-heading">Top deals</h6>
+                        <h5>Face wash sale collection </h5>
+                        <a href="#" class="flex-row"><img class="icons" src="img/eye.png"
+                                style="height: 30px; width: 30px;" alt="">
+                            Discover now</a>
+                    </div>
+                    <div class="img-container">
+                        <img src=" img/realistic-medical-mask-with-shadows 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="latest-section flex">
+            <h4>Latest health product</h4>
+            <div class="contianer flex-row">
+                <div class="card ">
+                    <img src="img/Frame 232.png" alt="">
+                    <div>
+
+                        <h5>Microscope</h5>
+                        <span>$45.00 USD</span>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="img/Frame 164.png" alt="">
+                    <div>
+
+                        <h5>Pulse oximeter</h5>
+                        <span>$19.00 USD <del> $25.00 USD</del></span>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="img/Frame 164 (1).png" alt="">
+                    <div>
+
+                        <h5>Vitamin serum</h5>
+                        <span>$20.00 USD <del>$30.00 USD</del></span>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="img/Frame 164 (2).png" alt="">
+                    <div>
+
+                        <h5>High protein </h5>
+                        <span>$50.00 USD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="group-179 flex-row">
+            <div class="group-card flex-row">
+                <img src="img/shield-check.png" alt="">
+                <div class="flex" style="align-items:start;">
+                    <h6>30 Days warranty</h6>
+                    <span>Enjoy peace of mind with warranty</span>
+                </div>
+            </div>
+            <div class="group-card flex-row">
+                <img src="img/arrow-left-arrow-right.png" alt="">
+                <div class="flex" style="align-items:start;">
+                    <h6>Exchange policy</h6>
+                    <span>You’re satisfied with your purchase</span>
+                </div>
+            </div>
+            <div class="group-card flex-row">
+                <img src="img/credit-card.png" alt="">
+                <div class="flex" style="align-items:start;">
+                    <h6>Secure payment</h6>
+                    <span>Shop with confidence every time</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="combine-section flex">
+        <div class="store-collection flex">
+            <h4>Explore Our store Collection</h4>
+
+            <div class="flex-row" style="width: 100%;">
+                <div class="contianer flex-row" style="width: 100%;">
+                    <!-- card1 -->
+
+                    <div class="card ">
+                        <img src="img/Frame 229.png" alt="">
+                        <div>
+
+                            <h5>B12 medicine</h5>
+                            <span>$19.00 USD <del>$25.00 USD</del></span>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card ">
+                        <img src="img/Frame 229 (1).png" alt="">
+                        <div>
+
+                            <h5>Tonometer</h5>
+                            <span>$19.00 USD </span>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="card ">
+                        <img src="img/Frame 227.png" alt="">
+                        <div>
+
+                            <h5>ECG cardiograph</h5>
+                            <span>$20.00 USD <del>$35.00 USD</del></span>
+                        </div>
+                    </div>
+                    <div class="card ">
+                        <img src="img/Frame 224.png" alt="">
+                        <div>
+
+                            <h5>Blood glucose meter </h5>
+                            <span>$15.00 USD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- row 2 -->
+                <div class="contianer flex-row">
+                    <div class="card ">
+                        <img src="img/Frame 137.png" alt="">
+                        <div>
+
+                            <h5>Lab hand gloves</h5>
+                            <span>$20.00 USD <del>$35.00 USD</del></span>
+                        </div>
+                    </div>
+                    <div class="card ">
+                        <img src="img/Frame 139.png" alt="">
+                        <div>
+
+                            <h5>Stethoscope</h5>
+                            <span>$20.00 USD <del> $35.00 USD</del></span>
+                        </div>
+                    </div>
+                    <div class="card ">
+                        <img src="img/Frame 141.png" alt="">
+                        <div>
+
+                            <h5>Inhaler pressure drop </h5>
+                            <span>$35.00 USD</span>
+                        </div>
+                    </div>
+                    <div class="card ">
+                        <img src="img/Frame 220.png" alt="">
+                        <div>
+
+                            <h5>Multi vitamin </h5>
+                            <span>$20.00 USD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mask-card flex-row">
+                    <div class="mask-img">
+                        <img src="img/Mask group.png" alt="">
+                    </div>
+                    <div class="mask-text-content flex">
+                        <div class="flex">
+
+                            <h5>Join our newsletter</h5>
+                            <h4 style="text-align: center;">Sign Up for an Instant 15% Discount</h4>
+                        </div>
+                        <div class="form ">
+                            <form class="flex-row" action="">
+                                <input type="text" placeholder="       Enter Email">
+                                <button class="btn "><img src="img/link-external.png" alt=""> Sign up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="instagram flex">
+        <div class="testmonial">
+            <div class="container flex">
+                <h4>Our happy clients</h4>
+                <div class="review-section flex-row">
+                    <img src="img/fi_11029023.png" alt="">
+                    <p style="text-align: center;">I’m so impressed with this online medical store. The product
+                        selection is extensive and the
+                        prices are great. I found everything i needed in one place. The ordering process was easy,
+                        delivery was prompt, and the items arrived in perfect condition. Plus, the customer service
+                        team was incredibly helpful.</p>
+
+                </div>
+                <div class="card-container flex-row">
+                    <div class="card flex-row">
+                        <img src="img/Mask group (1).png" alt="" class="profile">
+                        <div class="text">
+                            <h6>James Wilson</h6>
+                            <span>Manager</span>
+                        </div>
+                    </div>
+                    <div class="card flex-row">
+                        <img src="img/Mask group (2).png" alt="" class="profile">
+                        <div class="text">
+                            <h6>Henry Adams</h6>
+                            <span>CEO</span>
+                        </div>
+                    </div>
+                    <div class="card flex-row">
+                        <img src="img/Mask group (3).png" alt="" class="profile">
+                        <div class="text">
+                            <h6>Ethan Harris</h6>
+                            <span>Business manager</span>
+                        </div>
+                    </div>
+                    <div class="card flex-row">
+                        <img src="img/girl 1.png" style="border-radius: 50%;" alt="" class="profile">
+                        <div class="text">
+                            <h6>Lily Baker</h6>
+                            <span> Product Manager</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="social-detail flex">
+                <h4>Follow us @medifit</h4>
+                <div class="flex-row">
+                    <img src="img/Mask group (4).png" alt="">
+                    <img src="img/Mask group (5).png" alt="">
+                    <img src="img/Mask group (7).png" alt="">
+                    <img src="img/Mask group (6).png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+   <!-- ==============footer start============== -->
+    <footer class="flex-row">
+        <div class="column-I flex-row">
+            <div class="sub-column flex">
+                <h5>Pages</h5>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="pages.html">know more</a></li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="sub-column flex">
+                <h5>Utility</h5>
+                <ul>
+                    <li><a href="">Style guide</a></li>
+                    <li><a href="">Instruction</a></li>
+                    <li><a href="">Changelog</a></li>
+                    <li><a href="">Licenses</a></li>
+                    <li><a href="">Link in bio</a></li>
+                    <li><a href="">Error 404</a></li>
+                    <li><a href="">Password protected</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class=" center-column flex">
+            <img src="img/Group 189.png" alt="">
+            <p>We provides the ultimate solution for your online store and all the healthcare needs.</p>
+            <div class="flex-row img">
+                <img src="img/Group 13.png" alt="">
+                <img src="img/Group 14.png" alt="">
+                <img src="img/Group 15.png" alt="">
+                <img src="img/Group 16.png" alt="">
+            </div>
+        </div>
+        <div class="column flex">
+            <div class="mini-column " style="text-align: left; width: 100%;">
+                <h5> Address</h5>
+                <div class="flex-row">
+                    <img src="img/location-pin-2.png" alt=""><span>1640 Parker Rd. Allentown, <br>New Mexico 31134/span>
+                </div>
+
+            </div>
+            <div class="mini-column flex">
+                <h5>Contact</h5>
+                <div class="flex-row">
+                    <img src="img/fi_11502423.png" style="width: 15px; height: 15px;"
+                        alt=""><span>hello@gmail.com</span>
+                </div>
+                <div class="flex-row">
+                    <img src="img/fi_2198371.png" alt=""><span>(209) 555-0104</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/coustom.js"></script>
+</body>
+
+</html>

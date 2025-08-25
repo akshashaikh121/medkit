@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medkit |homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body onclick="click()">
+
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo"><img src="img/Group 189.png" class="logo-image" alt=""></div>
+            </div>
+            <div class="nav-item">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li onclick="dropdown()" class="drop"> <a
+                            style="display: flex; align-items: center; justify-content: center;">Pages <img
+                                src="img/fi_17808404.png"></a> </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="more-item">
+                <div id="hidden" class="input display-none ">
+
+                </div>
+                <button id="btn" onclick="clickHandler()"><img src="img/search-2.png" class="icons"></button>
+                <button><img src="img/c\rt.png" class="icons" alt=""></button>
+            </div>
+            <div onclick="show()" class="toggle">
+                <button class="toggle-button">
+                    <img src="img/pngwing.com (18).png" alt="">
+                </button>
+
+            </div>
+        </nav>
+
+        <div id="toggle-div" class="toggle-items display-none">
+
+        </div>
+    </header>
+    <div id="list" class="list display-none"></div>
+
+
+    </div>
+    <section class="shop-hero-section dropdown-margin" id="heroMargin">
+
+        <div class="container flex-row">
+            <div class=" img-container">
+                <div class="relative">
+                    <img class="size" src="img/Rectangle 134.png" alt="">
+                    <img class="size" src="img/home2img/Rectangle 119.png" alt="">
+
+                    <img class="absolute" src="img/Group 215.png" alt="">
+                </div>
+
+            </div>
+            <div class="text-container">
+
+                <h2 style="font-size: 40px;">B12 Medicine</h2>
+                <div>
+                    <h4 style="color:#8F7D6A">$19.00 USD</h4>
+                    <span style="font-size: 24px; color:#ad9b87"><del>$25.00 USD</del> </span>
+
+                </div>
+                <div class="add-to">
+
+                    <div class="valueChanger">
+                        <div id="valueChanger"></div>
+                        <div>
+                            <button onclick="incrimentValueHandler()"><i class="fa-solid fa-angle-up"></i></button>
+                            <button onclick="decrimentValueHandler ()"><i class="fa-solid fa-angle-down"></i></button>
+                        </div>
+                    </div>
+                    <button class="btn add-to-cart-btn">Add to Cart</button>
+
+                </div>
+                <h5>Product Description</h5>
+                <p> B12 Medicine is a premium supplement that combats B12 deficiency and supports energy, red blood cell
+                    formation, and nervous system health. Perfect for those with fatigue, anemia, or restricted diets
+                    like vegetarians and vegans.</p>
+                    
+                <h5>Key Benefits:</h5>
+                <ul>
+                    <li>Boosts energy levels.</li>
+                    <li>Supports healthy brain function.</li>
+                    <li>Promotes red blood cell production.</li>
+                    <li>Aids in maintaining nerve health.</li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="about-hero-section" id="heroMargin">
+
+        <div class=" template-card flex-row">
+
+            <div class="card flex">
+                <img src="img/about/truck-fast.png" class="icons">
+                <h6>Free shipping</h6>
+            </div>
+            <div class="card flex">
+                <img src="img/about/Vector (1).png" class="icons">
+                <h6>Free shipping</h6>
+            </div>
+            <div class="card flex">
+                <img src="img/about/headphone-mic.png" class="icons">
+                <h6>Free shipping</h6>
+            </div>
+            <div class="card flex">
+                <img src="img/about/credit-card (1).png" class="icons">
+                <h6>Free shipping</h6>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class="customers-review">
+        <div class="container flex">
+            <h4>Customers review </h4>
+            <div class="card-container flex-row">
+                <div class="card flex">
+                    <div class="white-container flex">
+                        <img src="img/home2img/message-lines.png" alt="">
+                        <p style="font-size: 14px;">B12 Medicine keeps me energized and focused all day. A true
+                            lifesaver for vitality and
+                            wellness!</p>
+                    </div>
+                    <div class="flex-row profile">
+                        <img src="img/home2img/Mask group (10).png" alt="">
+                        <h6>Olivia Garcia</h6>
+                    </div>
+
+                </div>
+                <div class="card-container flex-row">
+                    <div class="card flex">
+                        <div class="white-container flex">
+                            <img src="img/home2img/message-lines.png" alt="">
+                            <p style="font-size: 14px;">I’ve regained my energy and feel amazing thanks to B12 Medicine.
+                                Highly recommend for health and stamina!</p>
+                        </div>
+                        <div class="flex-row profile">
+                            <img src="img/home2img/Mask group (11).png" alt="">
+                            <h6>Sophia Brown</h6>
+                        </div>
+
+                    </div>
+                    <div class="card-container">
+                        <div class="card flex">
+                            <div class="white-container flex">
+                                <img src="img/home2img/message-lines.png" alt="">
+                                <p style="font-size: 14px;">As a vegetarian, B12 Medicine keeps my energy up and my
+                                    health on track. Perfect for natural support!</p>
+                            </div>
+                            <div class="flex-row profile">
+                                <img src="img/home2img/Mask group (12).png" alt="">
+                                <h6>Ethan Harris</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <div class="latest-section flex">
+        <h4>Recent Product</h4>
+        <div class="contianer flex-row">
+            <div class="card ">
+                <img src="img/Frame 232.png" alt="">
+                <div>
+
+                    <h5>Microscope</h5>
+                    <span>$45.00 USD</span>
+                </div>
+            </div>
+            <div class="card ">
+                <img src="img/Frame 164.png" alt="">
+                <div>
+
+                    <h5>Pulse oximeter</h5>
+                    <span>$19.00 USD <del> $25.00 USD</del></span>
+                </div>
+            </div>
+            <div class="card ">
+                <img src="img/Frame 164 (1).png" alt="">
+                <div>
+
+                    <h5>Vitamin serum</h5>
+                    <span>$20.00 USD <del>$30.00 USD</del></span>
+                </div>
+            </div>
+            <div class="card ">
+                <img src="img/Frame 164 (2).png" alt="">
+                <div>
+
+                    <h5>High protein </h5>
+                    <span>$50.00 USD</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="about-section-cta flex">
+        <div class="container flex-row">
+            <div class="text-div flex">
+                <h4>Join our trustable Medifit product community</h4>
+                <span>Join us as we build a community where wellness is accessible, education is empowering, and health
+                    is a shared journey.</span>
+                <button class="btn flex-row">Get started<img src="img/link-external.png" alt=""></button>
+            </div>
+            <div class="img-div">
+                <img src="img/about/img.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============footer start============== -->
+    <footer class="flex-row">
+        <div class="column-I flex-row">
+            <div class="sub-column flex">
+                <h5>Pages</h5>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="pages.html">know more</a></li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="sub-column flex">
+                <h5>Utility</h5>
+                <ul>
+                    <li><a href="">Style guide</a></li>
+                    <li><a href="">Instruction</a></li>
+                    <li><a href="">Changelog</a></li>
+                    <li><a href="">Licenses</a></li>
+                    <li><a href="">Link in bio</a></li>
+                    <li><a href="">Error 404</a></li>
+                    <li><a href="">Password protected</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class=" center-column flex">
+            <img src="img/Group 189.png" alt="">
+            <p>We provides the ultimate solution for your online store and all the healthcare needs.</p>
+            <div class="flex-row img">
+                <img src="img/Group 13.png" alt="">
+                <img src="img/Group 14.png" alt="">
+                <img src="img/Group 15.png" alt="">
+                <img src="img/Group 16.png" alt="">
+            </div>
+        </div>
+        <div class="column flex">
+            <div class="mini-column " style="text-align: left; width: 100%;">
+                <h5> Address</h5>
+                <div class="flex-row">
+                    <img src="img/location-pin-2.png" alt=""><span>1640 Parker Rd. Allentown, <br>New Mexico 31134/span>
+                </div>
+
+            </div>
+            <div class="mini-column flex">
+                <h5>Contact</h5>
+                <div class="flex-row">
+                    <img src="img/fi_11502423.png" style="width: 15px; height: 15px;"
+                        alt=""><span>hello@gmail.com</span>
+                </div>
+                <div class="flex-row">
+                    <img src="img/fi_2198371.png" alt=""><span>(209) 555-0104</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/coustom.js"></script>
+    <script src="https://kit.fontawesome.com/704bbd17a1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

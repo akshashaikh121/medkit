@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medkit |homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo"><img src="img/Group 189.png" class="logo-image" alt=""></div>
+            </div>
+            <div class="nav-item">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li onclick="dropdown()" class="drop"> <a
+                            style="display: flex; align-items: center; justify-content: center;">Pages <img
+                                src="img/fi_17808404.png"></a> </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="more-item">
+                <div id="hidden" class="input display-none ">
+
+                </div>
+                <button id="btn" onclick="clickHandler()"><img src="img/search-2.png" class="icons"></button>
+                <button><img src="img/cart.png" class="icons" alt=""></button>
+            </div>
+            <div onclick="show()" class="toggle">
+                <button class="toggle-button">
+                    <img src="img/pngwing.com (18).png" alt="">
+                </button>
+
+            </div>
+        </nav>
+
+        <div id="toggle-div" class="toggle-items display-none">
+
+        </div>
+    </header>
+    <div id="list" class="list display-none"></div>
+
+
+    </div>
+    <section class="about-hero-section dropdown-margin" id="heroMargin">
+
+        <div class="container ">
+            <h4>Health products you can trust service you deserve</h4>
+            <img src="img/about/Group 261.png" alt="">
+        </div>
+        <div class="about-us ">
+            <h4>About Us</h4>
+            <div>
+                <p>Our focus is on nurturing wellness and empowering health for all ages well being for people
+                    worldwide.</p>
+            </div>
+
+        </div>
+
+        <div class=" template-card flex-row">
+
+            <div class="card flex">
+                <img src="img/about/truck-fast.png" class="icons">
+                <h6>Free shipping</h6>
+            </div>
+            <div class="card flex">
+                <img src="img/about/Vector (1).png" class="icons">
+                <h6>Free shipping</h6>
+            </div>
+            <div class="card flex">
+                <img src="img/about/headphone-mic.png" class="icons">
+                <h6>Free shipping</h6>
+            </div>
+            <div class="card flex">
+                <img src="img/about/credit-card (1).png" class="icons">
+                <h6>Free shipping</h6>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="our-team">
+        <div class="container">
+            <h4>What to Expect When You Join Our Team</h4>
+            <div class="sub-container">
+
+                <div class="button-container">
+                    <p onclick="button1 ()" id="button1" class="button">
+                        <img src="img/about/arrow-trend-up.png" alt=""> Mission
+                    </p>
+                    <p onclick="button2 ()" id="button2" class="color button">
+                        <img src="img/about/thumb-up.png" alt=""> Commitments
+                    </p>
+                    <p onclick="button3 ()" id="button3" class="button">
+                        <img src="img/eye.png" alt=""> Vision
+                    </p>
+
+                    <img src="" alt="">
+                </div>
+                <div class="our-team-img"> <img id="img1" src="img/about/Rectangle 126.png" alt="">
+                    <div id="div1" class="span">
+                        <span id="span">We're committed to supporting your health journey by offering valuable
+                            educational
+                            resources,
+                            wellness insights, and expert advice to help you make informed decisions.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section-cta flex">
+        <div class="container flex-row">
+            <div class="text-div flex">
+                <h4>Join our trustable Medifit product community</h4>
+                <span>Join us as we build a community where wellness is accessible, education is empowering, and health
+                    is a shared journey.</span>
+                <button class="btn flex-row">Get started<img src="img/link-external.png" alt=""></button>
+            </div>
+            <div class="img-div">
+                <img src="img/about/img.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============footer start============== -->
+    <footer class="flex-row">
+        <div class="column-I flex-row">
+            <div class="sub-column flex">
+                <h5>Pages</h5>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="pages.html">know more</a></li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="sub-column flex">
+                <h5>Utility</h5>
+                <ul>
+                    <li><a href="">Style guide</a></li>
+                    <li><a href="">Instruction</a></li>
+                    <li><a href="">Changelog</a></li>
+                    <li><a href="">Licenses</a></li>
+                    <li><a href="">Link in bio</a></li>
+                    <li><a href="">Error 404</a></li>
+                    <li><a href="">Password protected</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class=" center-column flex">
+            <img src="img/Group 189.png" alt="">
+            <p>We provides the ultimate solution for your online store and all the healthcare needs.</p>
+            <div class="flex-row img">
+                <img src="img/Group 13.png" alt="">
+                <img src="img/Group 14.png" alt="">
+                <img src="img/Group 15.png" alt="">
+                <img src="img/Group 16.png" alt="">
+            </div>
+        </div>
+        <div class="column flex">
+            <div class="mini-column " style="text-align: left; width: 100%;">
+                <h5> Address</h5>
+                <div class="flex-row">
+                    <img src="img/location-pin-2.png" alt=""><span>1640 Parker Rd. Allentown, <br>New Mexico 31134/span>
+                </div>
+
+            </div>
+            <div class="mini-column flex">
+                <h5>Contact</h5>
+                <div class="flex-row">
+                    <img src="img/fi_11502423.png" style="width: 15px; height: 15px;"
+                        alt=""><span>hello@gmail.com</span>
+                </div>
+                <div class="flex-row">
+                    <img src="img/fi_2198371.png" alt=""><span>(209) 555-0104</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/coustom.js"></script>
+
+
+
+</body>
+
+</html>
