@@ -603,25 +603,29 @@
         flex-direction: column !important;
         gap: 5px;
     }
-    .textarea{
+
+    .textarea {
         margin-left: 30px;
     }
-textarea {
-    background-color: #EBE9E0;
-    border: 1px solid #361f0a;
-    border-radius: 4px;
-    margin-top: 5px;
-    background: url(../img/contact/pen-to-square.png) no-repeat;
-    background-size: 20px;
-    padding-left: 21px;
-    width: 300px;
-    height: 300px;
-}
-.form-container {
-    gap: 20px;
-    align-items: start !important;
-    justify-content: start !important;
-}
+
+    textarea {
+        background-color: #EBE9E0;
+        border: 1px solid #361f0a;
+        border-radius: 4px;
+        margin-top: 5px;
+        background: url(../img/contact/pen-to-square.png) no-repeat;
+        background-size: 20px;
+        padding-left: 21px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .form-container {
+        gap: 20px;
+        align-items: start !important;
+        justify-content: start !important;
+    }
+
     .Accordion p {
         width: 300px !important;
         /* height: 100px; */
@@ -633,6 +637,53 @@ textarea {
         width: 100%;
     }
 
+
+    .sub-column {
+        text-align: start;
+        gap: 20px;
+        align-items: start;
+        width: 30%;
+
+
+    }
+
+    .column-I {
+        align-items: start;
+        justify-content: center !important;
+        display: flex;
+        flex-direction: row !important;
+
+    }
+
+    .img {
+        gap: 10px;
+    }
+
+    .center-column {
+        width: 100%;
+        margin: 0px 50px;
+        gap: 20px;
+        align-items: start;
+
+
+    }
+
+    .mini-column,
+    .mini-column div {
+        gap: 10px;
+        align-items: start;
+        text-align: start;
+
+    }
+
+
+    footer {
+
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 40px;
+
+    }
 
 
 }
