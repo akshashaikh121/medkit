@@ -7,6 +7,7 @@
     <title>Medkit |homepage</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="home2">
@@ -92,7 +93,7 @@
             <img class="fi-image" src="img/home2img/fi_4173061.png" alt="">
         </div>
         <div class="container">
-            <div class="text-container">
+            <div data-aos="fade-left" data-aos-duration="2000" class="text-container">
                 <h4>Bringing trusted health solutions to your doorstep focused on
                     quality care & reliability</h4>
                 <p>Our store offers a comprehensive range of pharmaceuticals, health and wellness products, and
@@ -102,24 +103,24 @@
                 </button>
 
             </div>
-            <div class="our-story-img">
+            <div data-aos="fade-right" data-aos-duration="2000" class="our-story-img">
                 <img src="img/home2img/Mask group (8).png" alt="">
             </div>
         </div>
         <div class="card-container flex-row">
-            <div class="container flex  ">
+            <div data-aos="fade-left" data-aos-duration="2000" class="container flex  ">
                 <img src="img/home2img/Group 239.png" alt="">
                 <h5>Thoughtfully Made</h5>
             </div>
-            <div class="container flex">
+            <div data-aos="fade-left" data-aos-duration="2000" class="container flex">
                 <img src="img/home2img/Group 240.png" alt="">
                 <h5>Non-Toxic Formula</h5>
             </div>
-            <div class="container flex">
+            <div data-aos="fade-right" data-aos-duration="2000" class="container flex">
                 <img src="img/home2img/Group 241.png" alt="">
                 <h5>Organic Essentials</h5>
             </div>
-            <div class="container flex">
+            <div data-aos="fade-right" data-aos-duration="2000" class="container flex">
                 <img src="img/home2img/Group 242.png" alt="">
                 <h5>Safe for Everyone</h5>
             </div>
@@ -184,23 +185,31 @@
     </section>
     <section class="cta-category">
         <div class="cta-cards flex-row">
-            <div class="card card1">
+            <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="750" class="card card1">
                 <img src="img/home2img/Frame 294.png" alt="">
             </div>
-            <div class="card card2" >
+            <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000" class="card card2">
                 <img src=" img/home2img/Frame 295.png" alt="">
             </div>
-            <div class="card card3">
+            <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="card card3">
                 <img src="img/home2img/Frame 296.png" style="width: 38px; margin-left: 40px; margin-left: 30px;" alt="">
             </div>
-            <div class="card card4">
+            <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000" class="card card4">
                 <img src="img/home2img/Frame 297.png" alt="">
             </div>
         </div>
     </section>
     <section class="CTA-card-section">
         <div class="CTA-main-content">
-            <div class="CTA-img-content flex-row">
+            <div data-aos="fade-right" data-aos-duration="700" class="CTA-img-content flex-row">
                 <div class="big-img">
                     <img src="img/home2img/Mask group (9).png" alt="">
                 </div>
@@ -209,7 +218,7 @@
                 </div>
 
             </div>
-            <div class="CTA-text-content">
+            <div data-aos="fade-right" data-aos-duration="3000" class="CTA-text-content">
                 <h4>Save up to 10% on select tablets limited time only!</h4>
                 <span>Don't miss out on our limited-time sale! 10% discount on a wide range of essential health
                     products.</span>
@@ -278,11 +287,11 @@
                             <h3>Living well with chronic conditions</h3>
                         </div>
                         <div class="h6">
-                    
-    <a href="">                        
-<h6>
-      Read more <img src="img/home2img/chevron-right (1).png" width="17px" alt="">
-                            </h6>
+
+                            <a href="">
+                                <h6>
+                                    Read more <img src="img/home2img/chevron-right (1).png" width="17px" alt="">
+                                </h6>
                             </a>
 
                         </div>
@@ -303,10 +312,10 @@
                             <h3>Living well with chronic conditions</h3>
                         </div>
                         <div class="h6">
-                           <a href="">
+                            <a href="">
 
-                               <h6>Read more <img src="img/home2img/chevron-right (1).png" width="17px" alt="">
-                           </a>
+                                <h6>Read more <img src="img/home2img/chevron-right (1).png" width="17px" alt="">
+                            </a>
                             </h6>
                         </div>
 
@@ -381,6 +390,10 @@
     </footer>
 
     <script src="js/coustom.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

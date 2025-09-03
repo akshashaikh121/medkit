@@ -7,6 +7,7 @@
     <title>Medkit |homepage</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body onclick="click()">
@@ -33,7 +34,7 @@
 
                 </div>
                 <button id="btn" onclick="clickHandler()"><img src="img/search-2.png" class="icons"></button>
-                <button><img src="img/c\rt.png" class="icons" alt=""></button>
+                <button><img src="img/cart.png" class="icons" alt=""></button>
             </div>
             <div onclick="show()" class="toggle">
                 <button class="toggle-button">
@@ -130,7 +131,7 @@
     <section class="customers-review">
         <div class="container flex">
             <h4>Customers review </h4>
-            <div class="card-container flex-row">
+            <div data-aos="fade-up" data-aos-duration="700" class="card-container flex-row">
                 <div class="card flex">
                     <div class="white-container flex">
                         <img src="img/home2img/message-lines.png" alt="">
@@ -138,13 +139,13 @@
                             lifesaver for vitality and
                             wellness!</p>
                     </div>
-                    <div class="flex-row profile">
+                    <div  class="flex-row profile">
                         <img src="img/home2img/Mask group (10).png" alt="">
                         <h6>Olivia Garcia</h6>
                     </div>
 
                 </div>
-                <div class="card-container flex-row">
+                <div  class="card-container flex-row">
                     <div class="card flex">
                         <div class="white-container flex">
                             <img src="img/home2img/message-lines.png" alt="">
@@ -172,12 +173,13 @@
                         </div>
                     </div>
                 </div>
+            </div>
     </section>
 
     <div class="latest-section flex">
         <h4>Recent Product</h4>
         <div class="contianer flex-row">
-            <div class="card ">
+            <div data-aos="fade-up" data-aos-duration="700" class="card ">
                 <img src="img/Frame 232.png" alt="">
                 <div>
 
@@ -185,7 +187,7 @@
                     <span>$45.00 USD</span>
                 </div>
             </div>
-            <div class="card ">
+            <div data-aos="fade-up" data-aos-duration="1500" class="card ">
                 <img src="img/Frame 164.png" alt="">
                 <div>
 
@@ -193,7 +195,7 @@
                     <span>$19.00 USD <del> $25.00 USD</del></span>
                 </div>
             </div>
-            <div class="card ">
+            <div data-aos="fade-up" data-aos-duration="2200" class="card ">
                 <img src="img/Frame 164 (1).png" alt="">
                 <div>
 
@@ -201,7 +203,7 @@
                     <span>$20.00 USD <del>$30.00 USD</del></span>
                 </div>
             </div>
-            <div class="card ">
+            <div data-aos="fade-up" data-aos-duration="3000" class="card ">
                 <img src="img/Frame 164 (2).png" alt="">
                 <div>
 
@@ -288,6 +290,10 @@
 
     <script src="js/coustom.js"></script>
     <script src="https://kit.fontawesome.com/704bbd17a1.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
