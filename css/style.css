@@ -268,6 +268,21 @@ header nav {
 
 }
 
+.hero-section .text-container a {
+    border: none;
+    background-color: #503217 !important;
+    color: #fff;
+    border-radius: 5px;
+    /* padding: 8px 7px; */
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .text-container a img {
+    width: 20px;
+}
+
 .hero-section button img {
     width: 16px;
     height: 16px;
@@ -1280,7 +1295,8 @@ main {
 
 }
 
-button,a {
+button,
+a {
     cursor: pointer;
 }
 
