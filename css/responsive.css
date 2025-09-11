@@ -38,7 +38,7 @@
         height: 25px;
         position: absolute;
         z-index: 3;
-        left: 13px;
+        left: 13px !important;
         top: 135.5px;
         background: #efefef;
         padding-bottom: 9px;
