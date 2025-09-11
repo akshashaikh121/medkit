@@ -30,7 +30,7 @@ header {
     position: absolute;
     z-index: 1;
     /* left: 463px; */
-    left: 563px;
+    left: 563px !important;
 
     top: 39px;
     background: #efefef;
