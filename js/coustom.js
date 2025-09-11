@@ -119,24 +119,24 @@ function decrimentValueHandler() {
 
 }
 
-function messageSubmit(){
+function messageSubmit() {
     alert("your messages is submitted")
 }
-function showMessage ()  {
-  document.getElementById("accordionImg1").setAttribute("src","img/contact/medical-plus.png")
-  document.getElementById("accordionP1").innerHTML=`We offer a wide range of medical supplies, including prescription medications, over-the-counter products, supplements, and personal care items.`
+function showMessage() {
+    document.getElementById("accordionImg1").setAttribute("src", "img/contact/medical-plus.png")
+    document.getElementById("accordionP1").innerHTML = `We offer a wide range of medical supplies, including prescription medications, over-the-counter products, supplements, and personal care items.`
 }
 
-function showMessage1 ()  {
-  document.getElementById("accordionImg2").setAttribute("src","img/contact/medical-plus.png")
-  document.getElementById("accordionP2").innerHTML=`We offer a wide range of medical supplies, including prescription medications, over-the-counter products, supplements, and personal care items.`
+function showMessage1() {
+    document.getElementById("accordionImg2").setAttribute("src", "img/contact/medical-plus.png")
+    document.getElementById("accordionP2").innerHTML = `We offer a wide range of medical supplies, including prescription medications, over-the-counter products, supplements, and personal care items.`
 }
-function showMessage2 ()  {
-  document.getElementById("accordionImg3").setAttribute("src","img/contact/medical-plus.png")
-  document.getElementById("accordionP3").innerHTML=`We offer a wide range of medical supplies, including prescription medications, over-the-counter products, supplements, and personal care items.`
+function showMessage2() {
+    document.getElementById("accordionImg3").setAttribute("src", "img/contact/medical-plus.png")
+    document.getElementById("accordionP3").innerHTML = `We offer a wide range of medical supplies, including prescription medications, over-the-counter products, supplements, and personal care items.`
 }
 
-function showMessage3 ()  {
-  document.getElementById("accordionImg4").setAttribute("src","img/contact/medical-plus.png")
-  document.getElementById("accordionP4").innerHTML=`We offer a wide range of medical supplies, including prescription medications, over-the-counter products, supplements, and personal care items.`
+function showMessage3() {
+    document.getElementById("accordionImg4").setAttribute("src", "img/contact/medical-plus.png")
+    document.getElementById("accordionP4").innerHTML = `We offer a wide range of medical supplies, including prescription medications, over-the-counter products, supplements, and personal care items.`
 }

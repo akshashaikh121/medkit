@@ -10,6 +10,18 @@
 
 }
 
+@media (min-width:1451px) and (max-width:1550px) {
+    .list {
+        width: 98px;
+        height: 25px;
+        position: absolute;
+        z-index: 1;
+        left: 557px !important;
+
+    }
+
+}
+
 
 @media (min-width:320px) and (max-width:576px) {
     .nav-item {
