@@ -29,7 +29,9 @@ header {
     height: 25px;
     position: absolute;
     z-index: 1;
-    left: 463px;
+    /* left: 463px; */
+    left: 563px;
+
     top: 39px;
     background: #efefef;
     padding-bottom: 9px;
